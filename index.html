@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Josefin+Slab|Arvo|Lato|Vollkorn|Abril+Fatface|Old+Standard+TT|Droid+Sans|Lobster|Inconsolata|Montserrat|Playfair+Display|Karla|Alegreya|Libre+Baskerville|Merriweather|Lora|Archivo+Narrow|Neuton|Signika|Questrial|Fjalla+One|Bitter|Varela+Round);
+
+.background {
+  fill: #eee;
+  pointer-events: all;
+}
+
+.map-layer {
+  fill: #fff;
+  stroke: #aaa;
+}
+
+.effect-layer{
+  pointer-events:none;
+}
+
+text{
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
+
+text.big-text{
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.effect-layer text, text.dummy-text{
+  font-size: 12px;
+}
+.svg {background: lightBlue;  }
+
+div img{ display: inline-block;}
+
+.wrapper{  display: table; margin:0 auto 0 auto;}
+</style>
+<body  bgcolor="#C0C0C0" >
+<ul>
+  <li><a class="active" href="./index.html">Introduction</a></li>
+  <li><a href="./knn.html">KNN</a></li>
+  <li><a href="./cars.html">K Clusters</a></li>
+  <li><a href="./hoursdays.html">Day Hour Heatmap</a></li>
+  <li><a href="./contributing.html">Contributing</a></li>
+  <li><a href="./streets.html">Streets</a></li>
+  <li><a href="/intersections.html">Intersections</a></li>
+</ul>
+
+<body>
+<h1 align="center">Welcome to New York City!</h1>
+<di class="wrapper">
+  <img src="ny1.jpg" height="300" width="350">
+  <img src="ny2.jpg" height="300" width="350">
+  <img src="ny3.jpg" height="300" width="350">
+</di>
+<br>
+<br>
+<div>
+<h2 align="center">The City in Question...</h2>
+<b>New York</b> is a state in the northeastern United States and is the fourth-most populous, and seventh-most densely populated U.S. state. With a population
+of 8.55 million people in 2015 it is one of the most populous cities in the US. New York also has one of the most extensive and oldest infrastructures
+in the country.
+</br></br>
+The New York State Department of Motor Vehicles (NYSDMV or DMV) is the governmental agency responsible for registering and inspecting automobiles
+and other motor vehicles, as well as licensing drivers in the State of New York. And as of 2008, the NYSDMV has over 10,697,644 vehicle registrations in
+force. This is practically a portion of vehicles and cars travelling within the state borders. In NY alone of the 304,804 crashes that happened in 2013,
+1,109 were fatal crashes that involved vehicles, drivers, pedestrians and bicyclists.
+</br></br>
+Based on ASIRT nearly 1.3 million people die per year and over 20 million are injured as a result of road crash accidents. Due to the extremely high number of
+accidents and fatalities and injuries resulting from it can indeed be seen that this is a major point of interest for any major city in the world.
+</br></br>
+<h2 align="center">Why this seems Necessary...</h2>
+Therefore traffic accidents and incidents are a point of interest for governments and citizens of any countries. So we decided to do our
+project using the NYPD Motor Vehicle Collisions data set. Our plan is to implement a system where we would be able to have a look at the most dangerous streets and places
+very susceptible to accidents and if there were changes over the years, signifying that the authorities tried doing something about it. With the
+help of machine learning we should be able to predict a number of accidents for zones and streets.
+</br></br>
+Since the basic crux of our project is the analysis of the vehicle collisions happening in New York and find out which vehicles are the safest ones, at what hour is the safest and
+to see if it depends on the zone (more crowdy zone should get more accidents), we hope as a final result of the project to have some impact in form of visualising
+the analysed data and presenting it in a format that would be understandable to the common people in order for them to understand the major risks related with
+traffic and that safety is always the priority since human lives cannot be replaced!
+</div>
+</br></br>
+<div> The following Link leads to the iPython Notebook: </div>
+<di align="center">
+  <a href="http://nbviewer.jupyter.org/github/dancoconetu/dancoconetu.github.io/blob/master/Notebook.ipynb">Notebook</a>
+</di>
+<div> The dataset can be found at: 
+<a href="https://data.cityofnewyork.us/Public-Safety/NYPD-Motor-Vehicle-Collisions/h9gi-nx95">New York Dataset</a>
+<br>All the other datasets 
+<a href="https://github.com/dancoconetu/dancoconetu.github.io/">Datasets Repository</a>
+</body>
